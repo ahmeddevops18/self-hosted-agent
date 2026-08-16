@@ -1,0 +1,12 @@
+name: Runner Test
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: self-hosted
+
+    steps:
+      - name: Hello Bhai
+        run: echo "Hello Bhai, mera runner kaam kar raha hai!"
